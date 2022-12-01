@@ -1,62 +1,68 @@
-a = 1
-while a < 10:
-    print(a)
-    a += 1
+#if (true){
     
-#while battery.notDead():
-    #pas
-
-iter("asdfasad")
-
-iter(1)
-name = " john"
-a = 1
-a.__iter__
 
 
-"asdfsghjdkfg" * 3
 
-print(type(name))
-print("***")
+#}
+#bullet points
+#1 indent = 2spaces, 4spaces,tab, 8 spaces
 
-for c in name:
-    print(c)
-    print(type(c))
-
-for i in range(5):
-    print(i)
-
-for i in 1:
-    print(i)
-    
-a = range(5)
-a
-a.__iter__
+a = False
+if a:
+    print("the value is true")
+print("end")
 
 
-for i in range(5):
-    print(i)
-if i == 3:
-    break
-a = 1
-print(a)
-del a
-print(a)
 
-for  i in [0,1,2,3,4]: # i = 2
-     print(i)  # i = 2
-     i = 100    #i=100
-     print(i)   #i = 100
-     
-if true:
-    # i don't know what to do
-print("rent of the code")
-
-if True:
-    pass
-print("rent of the code")    
-
-
-for i in range(5):
-    print(1)
+a = 5
+if a== 3:
+     print("this value this value is 3")
+elif a==5:
+    print("this value is 5")
 else:
+    print("this value is not 3 or 5")
+#nested if
+
+#x: int (0,inf)
+#g -> x
+#a = x <  0
+#b = x == 0
+#c = x >  0
+
+#a int b = b int c = a int c = phi
+    #a u b u c :=G
+#conditionsa are mutually exclusive
+
+#if
+#elif
+#else
+
+#q = can profile A acces profile B
+
+#a = isfriend
+#b = isblocked
+#c = isadmin
+#d = ismarkjukarburg
+
+#a b c d q
+0 0 0 0 0
+0 0 0 1 1
+0 0 1 0 1
+0 0 1 1 1
+0 1 0 0 0
+0 1 1 0 0
+0 1 0 1 1
+0 1 1 1 1
+1 0 0 0 1
+1 0 0 1 1
+1 0 1 0 1
+1 0 1 1 1
+1 1 0 0 0
+1 1 0 1 1
+1 1 1 0 0
+1 1 1 1 1
+
+if ______:
+    print("has acces")
+else:
+    print("acces denied")
